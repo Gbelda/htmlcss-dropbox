@@ -14,6 +14,9 @@
     clear: both;
 }
 
+body{
+    font-family: 'Open Sans',sans-serif;;
+}
 
 /**************
     STRUCTURE 
@@ -94,6 +97,61 @@ footer .footer_column{
     width: 15%;
     margin-right: 5%;
 }
+
+/**************
+    UTILITY 
+ **************/
+
+.nav{
+    position: fixed;
+    width: 100%;
+    z-index: 10000000;
+    background-color: white;
+}
+
+.nav_column{
+    height: 100px;
+}
+
+.nav .left{
+    padding-top: 30px;
+}
+
+.nav .right{
+    padding-top: 38px;
+    text-align: right;
+    padding-right: 40px;
+}
+
+ .page_link,
+ .page_link li{
+     list-style: none;
+     display: inline-block;
+ }
+
+ .nav_column img{
+     vertical-align: bottom;
+     padding-left: 20px;
+ }
+
+ .page_link a{
+     text-decoration: none;
+     color: black;
+     font-weight: 600;
+     padding-left: 40px;
+ }
+
+.button .login{
+    color: white;
+    background-color: #0061FF;
+    padding: 10px 20px;
+    margin-left: 40px;
+}
+
+
+
+
+
 /*****************
         DEBUG 
 ******************/
