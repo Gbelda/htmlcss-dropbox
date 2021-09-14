@@ -98,80 +98,141 @@ footer .footer_column{
     margin-right: 5%;
 }
 
+.jumbo_container{
+    width: 80%;
+    margin: auto;
+    position: absolute;
+    top: 25%;
+    left: 10%;
+}
+
 /**************
     UTILITY 
  **************/
+ 
+ 
+.page_link a,
+.jumbo_text a{
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+    
+.button .btn_blue{
+    color: white;
+    background-color: #0061FF;
+    padding: 10px 20px;
+}
+    
+.jumbotron_bg{
+    background-color: #B4D0E7;
+    width: 100%;
+    height: 900px;
+}
+    
+.page_link,
+.page_link li{
+    list-style: none;
+    display: inline-block;
+}
 
+.txt_small{
+    font-size: 0.9rem;
+}
+/*****************
+        HEADER
+*******************/
+    
 .nav{
     position: fixed;
     width: 100%;
     z-index: 10000000;
     background-color: white;
 }
-
+    
 .nav_column{
     height: 100px;
 }
-
+    
 .nav .left{
     padding-top: 30px;
 }
-
+       
+    
 .nav .right{
     padding-top: 38px;
     text-align: right;
     padding-right: 40px;
 }
-
- .page_link,
- .page_link li{
-     list-style: none;
-     display: inline-block;
- }
-
- .nav_column img{
-     vertical-align: bottom;
-     padding-left: 20px;
- }
-
- .page_link a{
-     text-decoration: none;
-     color: black;
-     font-weight: 600;
-     padding-left: 40px;
- }
-
-.button .login{
-    color: white;
-    background-color: #0061FF;
-    padding: 10px 20px;
-    margin-left: 40px;
+       
+       
+.nav_column img{
+    vertical-align: bottom;
+    padding-left: 20px;
+    margin-right: 20px;
 }
 
+.right .btn_blue{
+    margin-left: 20px;
+}
+    
 
+
+/******************
+        JUMBOTRON 
+********************/
+
+.jumbo_container .title{
+    font-size: 5.5rem;
+    margin-bottom: 50px;
+}
+
+.jumbo_container li{
+    list-style: none;
+    padding-bottom: 50px;
+}
+
+.jumbo_img{
+    width: 100%;
+}
+
+.txt_column .jumbo_text{
+    width: 450px;
+}
+
+.jumbo_text .descript{
+    font-size: 1.1rem;
+    font-weight: 600;
+}
+
+.jumbo_text .arrow_down{
+    font-size: 2.5rem;
+}
 
 
 
 /*****************
         DEBUG 
 ******************/
-
-
+    
+    
 .debug .nav .left{
     background-color: aqua;
     height: 100px;
 }
-
+    
 .debug .nav .right{
     background-color: aquamarine;
     height: 100px;
 }
-
+    
 .debug .jumbotron_bg{
     background-color: skyblue;
     height: 650px;
 }
-
+    
 
 .debug .jumbo_container{
     background-color: slateblue;
