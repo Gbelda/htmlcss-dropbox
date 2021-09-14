@@ -49,8 +49,8 @@ body{
     width: 60%;
 }
 
-.container_70{
-    width: 70%;
+.container_60{
+    width: 60%;
     margin: auto;
 }
 
@@ -102,7 +102,7 @@ footer .footer_column{
     width: 80%;
     margin: auto;
     position: absolute;
-    top: 25%;
+    top: 20%;
     left: 10%;
 }
 
@@ -208,7 +208,17 @@ footer .footer_column{
 }
 
 .jumbo_text .arrow_down{
-    font-size: 2.5rem;
+    font-size: 2rem;
+}
+
+/********************
+        PLANS 
+ *********************/
+
+.plans h2{
+    margin-top: 300px;
+    font-size: 3rem;
+    margin-bottom: 100px;
 }
 
 
