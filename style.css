@@ -1,0 +1,52 @@
+/**************
+    BASE RULES 
+***************/
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.clearfix::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+/**************
+    UTILITIES 
+ **************/
+
+.nav_column{
+    float: left;
+    width: 50%;
+}
+
+
+
+
+
+/*****************
+        DEBUG 
+******************/
+
+
+.debug .nav .left{
+    background-color: aqua;
+    height: 100px;
+}
+
+.debug .nav .right{
+    background-color: aquamarine;
+    height: 100px;
+}
+
+.debug .jumbotron_bg{
+    background-color: skyblue;
+    height: 600px;
+}
+
+
+
