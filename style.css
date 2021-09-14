@@ -22,12 +22,16 @@
 .nav_column, 
 .partner .image_left,
 .partner .txt_right,
-.box .internal_box{
+.box .internal_box,
+.box_bottom .trial_campaign,
+.box_bottom .free_trial{
     float: left;
     width: 50%;
 }
 
-.title{
+.title,
+.row .table_bottom,
+.QA .FAQ{
     float: left;
     width: 100%;
 }
@@ -47,6 +51,12 @@
     margin: auto;
 }
 
+.container_80{
+    width: 80%;
+    margin: auto;
+    padding-top: 100px;
+}
+
 .row .column,
 .operations .instruments{
     float: left;
@@ -57,12 +67,6 @@
 .row .middle,
 .operations .mid{
     margin: 30px 3.5%;
-}
-
-.row .table_bottom,
-.client_logo .box_bottom{
-    float: left;
-    width: 100%;
 }
 
 .partner{
@@ -79,6 +83,17 @@ margin-top: 40px;
     float: left;
 }
 
+footer{
+    margin-top: 40px;
+    background-color: black;
+    margin: auto;
+}
+
+footer .footer_column{
+    float: left;
+    width: 15%;
+    margin-right: 5%;
+}
 /*****************
         DEBUG 
 ******************/
@@ -156,8 +171,8 @@ margin-top: 40px;
     height: 500px;
 }
 
-.client_logo .left,
-.client_logo .right{
+.debug .client_logo .left,
+.debug .client_logo .right{
     height: 100%;
     background-color: darkmagenta;
 }
@@ -182,4 +197,23 @@ margin-top: 40px;
 .debug .box_bottom{
     height: 400px;
     background-color: rgb(37, 81, 124);
+}
+
+.debug .box_bottom .free_trial{
+    height: 100%;
+    background-color: dodgerblue;
+}
+
+.debug .QA .FAQ{
+    height: 150px;
+    background-color: forestgreen;
+}
+
+.debug footer{
+    height: 600px;
+}
+
+.debug footer .footer_column{
+    height: 400px;
+    background-color: cornsilk;
 }
