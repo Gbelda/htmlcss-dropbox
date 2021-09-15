@@ -154,7 +154,8 @@ footer .footer_column{
     
 
 .button .btn_gray{
-background-color: lightgrey;
+background-color: white;
+    padding: 7px 60px;
 }
 
 .jumbotron_bg{
@@ -505,9 +506,18 @@ background-color: lightgrey;
     background-color: #B4D0E7;
 }
 
-.trial_campaign{
+.trial_campaign,
+.free_trial{
     position: relative;
     height: 400px;
+}
+
+
+.free_trial .btn_gray{
+    position: absolute;
+    top: 38%;
+    left: 25%;
+
 }
 
 /*****************
