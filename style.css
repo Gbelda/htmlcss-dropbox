@@ -152,6 +152,11 @@ footer .footer_column{
     padding: 7px 20px;
 }
     
+
+.button .btn_gray{
+background-color: lightgrey;
+}
+
 .jumbotron_bg{
     background-color: #B4D0E7;
     width: 100%;
@@ -174,7 +179,8 @@ footer .footer_column{
     border: 1px solid lightgrey;
 }
 
-.container_60 h2{
+.container_60 h2,
+.trial_campaign h2{
     font-size: 2.8rem;
     margin-bottom: 40px;
 }
@@ -470,6 +476,40 @@ footer .footer_column{
     left: 13%;
     bottom: 25%;
 }
+
+.world_bicycle{
+    background-color: #D5001F;
+}
+
+.hearst{
+    background-color: #B4D0E7;
+}
+
+.lonely_planet{
+    background-color: #0D2481;
+}
+
+.clear_channel{
+    background-color: #FFD830;
+}
+
+.trial_campaign h2{
+    width: 60%;
+    color: #61082B;
+    position: absolute;
+    top: 35%;
+    right: 0px ;
+}
+
+.box_bottom{
+    background-color: #B4D0E7;
+}
+
+.trial_campaign{
+    position: relative;
+    height: 400px;
+}
+
 /*****************
         DEBUG 
 ******************/
