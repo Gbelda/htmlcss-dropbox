@@ -105,7 +105,7 @@ body{
     width: 30%;
 }
 
-.client_logo .middle{
+.client_logo .client_mid{
     float: left;
     width: 40%;
 }
@@ -405,6 +405,12 @@ footer .footer_column{
     width: 57%;
 }
 
+.client_logo .client_mid{
+    background-color: #F5F5F5;
+    height: 500px;
+    position: relative;
+}
+
 .internal_box img{
     width: 50%;
     position: absolute;
@@ -438,6 +444,31 @@ footer .footer_column{
 
 .topps{
     background-color: #FF1C1C;
+}
+
+.client_mid img{
+    width: 132.72px;
+    position: absolute;
+    top: 12%;
+    left: 13%;
+
+}
+
+.client_mid p{
+    width: 74%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 1rem;
+}
+
+.client_mid h6{
+    font-size: 1rem;
+    font-weight: 600;
+    position: absolute;
+    left: 13%;
+    bottom: 25%;
 }
 /*****************
         DEBUG 
