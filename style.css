@@ -275,9 +275,10 @@ footer .footer_column{
     font-weight: 600;
 }
 
-.plans li p{
+.plans li p,
+.feature li p{
     display: inline-block;
-    width: 80%;
+    width: 83%;
     vertical-align: top;
 }
 
@@ -287,8 +288,33 @@ footer .footer_column{
     padding: 7px 50px;
 }
 
+.border_bot{
+    border-bottom: 1px solid lightgrey;
+    padding-bottom: 40px;
+}
+
 .plans .buy_now{
     color: #0061FF;
+}
+
+.plans .pros h5{
+    padding-top: 40px;
+    font-weight: 700;
+    padding-bottom: 30px;
+    font-size: 1rem;
+}
+
+.feature .fa-check{
+    color: #0061FF;
+}
+
+.feature li{
+    font-size: 0.9rem;
+    font-weight: 600;
+}
+
+.pros .feature{
+    padding-bottom: 200px;
 }
 /*****************
         DEBUG 
