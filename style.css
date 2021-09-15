@@ -75,16 +75,24 @@ body{
     margin: auto;
 }
 
-.row .column,
-.operations .instruments{
+.row .column{
     float: left;
     width: 31%;
     margin: 30px 0px;    
 }
 
-.row .middle,
-.operations .mid{
+.operations .instruments{
+    float: left;
+    width: 30%;
+    margin: 30px 0px;
+}
+
+.row .middle{
     margin: 30px 3.5%;
+}
+
+.operations .mid{
+    margin: 30px 5%;
 }
 
 .partner{
@@ -124,6 +132,11 @@ footer .footer_column{
 /**************
     UTILITY 
  **************/
+
+.partner,
+.operations{
+    padding-top: 150px;
+ }
  
 .nav a,
 .button a,
@@ -159,6 +172,15 @@ footer .footer_column{
 
 .row .border_gray{
     border: 1px solid lightgrey;
+}
+
+.container_60 h2{
+    font-size: 2.8rem;
+    margin-bottom: 70px;
+}
+
+.underline{
+    text-decoration: underline;
 }
 
 /*****************
@@ -241,11 +263,6 @@ footer .footer_column{
 /********************
         PLANS 
  *********************/
-
-.plans h2{
-    font-size: 3rem;
-    margin-bottom: 70px;
-}
 
 .sect_title label{
     margin-right: 20px;
@@ -345,9 +362,6 @@ footer .footer_column{
         PARTNER 
  ********************/
 
- .partner{
-     padding-top: 150px;
- }
 
 .partner img{
     width: 100%;
@@ -365,6 +379,18 @@ footer .footer_column{
     width: 75%;
     padding-bottom: 15px;
 }
+
+/******************
+    OPERATIONS 
+*******************/
+.operations img{
+    width: 100%;
+}
+
+.operations .font_small{
+    width: 85%;
+}
+
 /*****************
         DEBUG 
 ******************/
