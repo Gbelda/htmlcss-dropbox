@@ -23,8 +23,7 @@ body{
  **************/
 
  #jump{
-     padding-top: 100px;
-     height: 200px;
+     height: 100px;
  }
 
 .nav_column, 
@@ -95,18 +94,20 @@ body{
     margin: 30px 5%;
 }
 
-.partner{
-    margin: 20px 0px;
-}
 
-.clients .client_logo{
+.client_logo{
     width: 100%;
-margin-top: 40px;
+    margin-top: 40px;
 }
 
 .client_logo .box{
-    width: 33.33%;
     float: left;
+    width: 30%;
+}
+
+.client_logo .middle{
+    float: left;
+    width: 40%;
 }
 
 footer{
@@ -133,8 +134,7 @@ footer .footer_column{
     UTILITY 
  **************/
 
-.partner,
-.operations{
+.sect_title{
     padding-top: 150px;
  }
  
@@ -176,7 +176,7 @@ footer .footer_column{
 
 .container_60 h2{
     font-size: 2.8rem;
-    margin-bottom: 70px;
+    margin-bottom: 40px;
 }
 
 .underline{
@@ -322,7 +322,7 @@ footer .footer_column{
     padding-bottom: 40px;
 }
 
-.plans .buy_now{
+.blue_under{
     color: #0061FF;
 }
 
@@ -363,6 +363,11 @@ footer .footer_column{
  ********************/
 
 
+.partner{
+    padding-top: 170px;
+}
+
+
 .partner img{
     width: 100%;
 }
@@ -383,6 +388,7 @@ footer .footer_column{
 /******************
     OPERATIONS 
 *******************/
+
 .operations img{
     width: 100%;
 }
@@ -391,6 +397,48 @@ footer .footer_column{
     width: 85%;
 }
 
+/*****************
+      CLIENTS 
+*******************/
+
+.client_title{
+    width: 57%;
+}
+
+.internal_box img{
+    width: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    filter: invert(100%);
+}
+
+.internal_box{
+    position: relative;
+    height: 250px;
+}
+
+.designit{
+    background-color: #A2D39B;
+    border: 10px solid #D0E9CD;
+}
+
+.arizona{
+    background-color: #61082B;
+}
+
+#ASU{
+    width: 40%;
+}
+
+.florida{
+    background-color: #0093CE;
+}
+
+.topps{
+    background-color: #FF1C1C;
+}
 /*****************
         DEBUG 
 ******************/
