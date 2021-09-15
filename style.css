@@ -126,7 +126,8 @@ footer .footer_column{
  **************/
  
 .nav a,
-.button a{
+.button a,
+.partner a{
     text-decoration: none;
     color: black;
     font-weight: 600;
@@ -148,10 +149,6 @@ footer .footer_column{
 .page_link li{
     list-style: none;
     display: inline-block;
-}
-
-.txt_small{
-    font-size: 0.9rem;
 }
 
 .gray_txt{
@@ -265,12 +262,12 @@ footer .footer_column{
     padding: 8px 0px;
 }
 
-.plans li{
+.container_60 li{
     list-style: none;
     margin-bottom: 20px;
 }
 
-.plans h3{
+.container_60 h3{
     font-size: 1.7rem;
 }
 
@@ -285,7 +282,7 @@ footer .footer_column{
 }
 
 .plans .specs li,
-.plans .font_small{
+.font_small{
     font-size: 0.9rem;
     font-weight: 600;
 }
@@ -344,6 +341,30 @@ footer .footer_column{
     padding-top: 50px;
 }
 
+/********************
+        PARTNER 
+ ********************/
+
+ .partner{
+     padding-top: 150px;
+ }
+
+.partner img{
+    width: 100%;
+}
+
+.btn .btn_white{
+    background-color: white;
+    padding: 7px 20px;
+    border: 1px solid black;
+    font-size: 00.9rem;
+}
+
+.enterprise .font_small{
+    line-height: 25px;
+    width: 75%;
+    padding-bottom: 15px;
+}
 /*****************
         DEBUG 
 ******************/
