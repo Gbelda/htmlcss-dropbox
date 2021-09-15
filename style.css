@@ -110,20 +110,17 @@ footer .footer_column{
     UTILITY 
  **************/
  
- 
-.page_link a,
-.jumbo_text a{
+.nav a,
+.button a{
     text-decoration: none;
     color: black;
     font-weight: 600;
-    padding-left: 20px;
-    padding-right: 20px;
 }
     
 .button .btn_blue{
     color: white;
     background-color: #0061FF;
-    padding: 10px 20px;
+    padding: 7px 20px;
 }
     
 .jumbotron_bg{
@@ -141,6 +138,17 @@ footer .footer_column{
 .txt_small{
     font-size: 0.9rem;
 }
+
+.gray_txt{
+    color: #6A7986;
+    font-weight: bold;
+    font-size: 0.8rem;
+}
+
+.row .column{
+    border: 1px solid lightgrey;
+}
+
 /*****************
         HEADER
 *******************/
@@ -151,7 +159,11 @@ footer .footer_column{
     z-index: 10000000;
     background-color: white;
 }
-    
+
+.nav a{
+     padding: 0px 20px;
+}
+
 .nav_column{
     height: 100px;
 }
@@ -178,6 +190,7 @@ footer .footer_column{
     margin-left: 20px;
 }
     
+
 
 
 /******************
@@ -207,9 +220,11 @@ footer .footer_column{
     font-weight: 600;
 }
 
-.jumbo_text .arrow_down{
+.jumbo_text .arrow_down a{
     font-size: 2rem;
+    color: black;
 }
+
 
 /********************
         PLANS 
@@ -218,11 +233,63 @@ footer .footer_column{
 .plans h2{
     margin-top: 300px;
     font-size: 3rem;
-    margin-bottom: 100px;
+    margin-bottom: 70px;
 }
 
+.sect_title label{
+    margin-right: 20px;
+}
 
+.plans input{
+    margin-bottom: 30px;
+}
 
+.plans h4{
+    font-weight: 600;
+    text-align: center;
+    border-bottom: 1px solid lightgrey;
+    padding: 8px 0px;
+}
+
+.plans li{
+    list-style: none;
+    margin-bottom: 20px;
+}
+
+.plans h3{
+    font-size: 1.7rem;
+}
+
+.plans .amount{
+    font-weight: bold;
+}
+
+.column > div{
+    margin-top: 40px;
+    margin-left: 40px;
+}
+
+.plans .specs li,
+.plans .font_small{
+    font-size: 0.9rem;
+    font-weight: 600;
+}
+
+.plans li p{
+    display: inline-block;
+    width: 80%;
+    vertical-align: top;
+}
+
+.plans .btn_blue{
+    font-size: 0.9rem;
+    text-align: center;
+    padding: 7px 50px;
+}
+
+.plans .buy_now{
+    color: #0061FF;
+}
 /*****************
         DEBUG 
 ******************/
