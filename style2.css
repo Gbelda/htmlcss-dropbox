@@ -35,7 +35,8 @@ main .txt_right{
 }
 
 .login_btn .icon,
-.login_btn .btn_txt{
+.login_btn .btn_txt,
+.fillup{
     float: left;
 }
 
@@ -59,7 +60,7 @@ main .txt_right{
     padding: 3px 5px;
     border: 1px solid rgba(0, 0, 0, 0.384);
     border-radius: 3px;
-    margin-top: 30px;
+    margin: 35px 0px;
 }
 
 .login_btn.google{
@@ -68,4 +69,47 @@ main .txt_right{
 
 .login_btn.apple{
     background-color: black;
+}
+
+.divider{
+    width: 100%;
+    border-bottom: 1px solid lightgray;
+    text-align: center;
+    line-height: 0px;
+    margin-bottom: 30px;
+}
+
+.divider .divider_txt{
+    background-color: white;
+    padding: 0px 5px;
+    font-size: 0.9rem;
+}
+
+.fillup{
+    width: 100%;
+    margin: 10px 0px;
+    height: 30px;
+    border: 1px solid lightgray;
+    border-radius: 3px;
+    font-size: 1rem;
+    padding-left: 10px;
+}
+
+.signin .txt_left,
+.signin .txt_right{
+    margin: 20px 0px;
+}
+
+.login_opt .btn_blue{
+    font-weight: 600;
+    border: none;
+}
+
+.remember label,
+.forgot a{
+    font-size: 0.9rem;
+}
+
+.signin a{
+    text-decoration: none;
 }
