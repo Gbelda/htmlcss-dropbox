@@ -1,4 +1,6 @@
-
+/*************
+    GENERAL 
+**************/
 .nav{
     border-bottom: 1px solid lightgray
 }
@@ -13,9 +15,33 @@ main .img_container,
 main .signin,
 main .txt_left,
 main .txt_right{
-    float: left;
     width: 50%;
 }
+
+.login_btn .icon,
+.login_btn .btn_txt,
+.fillup,
+main .img_container,
+main .signin,
+main .txt_left,
+main .txt_right,
+footer .index{
+    float: left;
+}
+
+.signin .txt_left,
+.signin .txt_right{
+    margin: 20px 0px;
+}
+
+main{
+    padding-bottom: 200px;
+}
+
+/**************
+       MAIN 
+***************/
+
 
 .signin .txt_right{
     text-align: right;
@@ -32,12 +58,6 @@ main .txt_right{
 
 .signin .txt_blue{
     color: #0061FF;
-}
-
-.login_btn .icon,
-.login_btn .btn_txt,
-.fillup{
-    float: left;
 }
 
 .login_btn .icon{
@@ -95,11 +115,6 @@ main .txt_right{
     padding-left: 10px;
 }
 
-.signin .txt_left,
-.signin .txt_right{
-    margin: 20px 0px;
-}
-
 .login_opt .btn_blue{
     font-weight: 600;
     border: none;
@@ -112,4 +127,47 @@ main .txt_right{
 
 .signin a{
     text-decoration: none;
+}
+
+
+/****************
+       FOOTER 
+*****************/
+
+footer{
+    padding-top: 50px;
+    border-top: 1px solid lightgray;
+    position: relative;
+    width: 60%;
+    margin: auto;
+}
+
+footer .column{
+    width: 10%;
+    font-size: 1rem;
+    margin: 0% 2%;
+    padding-bottom: 200px;
+}
+
+footer .txt_gray{
+    width: 100%;
+}
+
+footer .english{
+    width: 40%;
+    text-align: right;
+    padding-right: 10px;
+}
+
+.index li{
+    list-style: none;
+    font-size: 0.9rem;
+    padding-bottom: 5px;
+
+}
+
+.index li a{
+    text-decoration: none;
+    color: gray;
+    font-weight: 500;
 }
