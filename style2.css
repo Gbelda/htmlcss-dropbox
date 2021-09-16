@@ -17,7 +17,6 @@ main .txt_right{
     width: 50%;
 }
 
-
 .signin .txt_right{
     text-align: right;
 }
@@ -28,9 +27,45 @@ main .txt_right{
 
 .signin .txt_right{
     font-size: .9rem;
-    padding-top: 6px
+    padding-top: 6px;
 }
 
 .signin .txt_blue{
     color: #0061FF;
+}
+
+.login_btn .icon,
+.login_btn .btn_txt{
+    float: left;
+}
+
+.login_btn .icon{
+    width: 10%;
+    border-right: 1px solid rgba(245, 245, 245, 0.212);
+    text-align: center;
+    filter: invert(100%);
+}
+
+.login_btn .btn_txt{
+    width: 90%;
+    text-align: center;
+    color: white;
+    font-size: 0.9rem;
+    font-weight: 600;
+}
+
+.login_btn{
+    width: 100%;
+    padding: 3px 5px;
+    border: 1px solid rgba(0, 0, 0, 0.384);
+    border-radius: 3px;
+    margin-top: 30px;
+}
+
+.login_btn.google{
+    background-color: #0061FF;
+}
+
+.login_btn.apple{
+    background-color: black;
 }
