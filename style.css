@@ -1,6 +1,9 @@
 /**************
     BASE RULES 
 ***************/
+html{
+    scroll-behavior: smooth;
+}
 
 *{
     box-sizing: border-box;
@@ -15,7 +18,8 @@
 }
 
 body{
-    font-family: 'Open Sans',sans-serif;;
+    font-family: 'Open Sans',sans-serif;
+    min-width: 1440px;
 }
 
 /**************
@@ -24,6 +28,7 @@ body{
 
  #jump{
      height: 100px;
+     margin-top: 70px;
  }
 
 .nav_column, 
@@ -126,7 +131,7 @@ footer .footer_column{
     width: 80%;
     margin: auto;
     position: absolute;
-    top: 20%;
+    top: 170px;
     left: 10%;
 }
 
@@ -140,7 +145,8 @@ footer .footer_column{
  
 .nav a,
 .button a,
-.partner a{
+.partner a,
+.language a{
     text-decoration: none;
     color: black;
     font-weight: 600;
@@ -170,7 +176,7 @@ background-color: white;
     display: inline-block;
 }
 
-.gray_txt{
+.txt_gray{
     color: #6A7986;
     font-weight: bold;
     font-size: 0.8rem;
@@ -274,6 +280,10 @@ h2{
         PLANS 
  *********************/
 
+#plan_price h2{
+    margin-top: -100px;
+}
+
 .sect_title label{
     margin-right: 20px;
 }
@@ -353,12 +363,9 @@ footer .index_links li{
     font-weight: 600;
 }
 
-.plans .middle{
-    padding-bottom: 242px;
-}
 
-.plans aside{
-    padding-bottom: 300px;
+.plans .column{
+    min-height: 1440px;
 }
 
 .col_left .enterprise h5{
@@ -574,6 +581,7 @@ footer .index_links li{
 /*****************
         FOOTER 
 ******************/
+
 footer{
 height: 600px;
 }
