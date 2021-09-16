@@ -131,7 +131,7 @@ footer .footer_column{
     width: 80%;
     margin: auto;
     position: absolute;
-    top: 170px;
+    top: 190px;
     left: 10%;
 }
 
@@ -171,7 +171,7 @@ background-color: white;
 }
     
 .page_link,
-.page_link li{
+.page_link > li{
     list-style: none;
     display: inline-block;
 }
@@ -207,7 +207,7 @@ h2{
 }
 
 .nav a{
-     padding: 0px 20px;
+     margin: 0px 20px;
 }
 
 .nav_column{
@@ -220,7 +220,7 @@ h2{
        
     
 .nav .right{
-    padding-top: 38px;
+    padding-top: 33px;
     text-align: right;
     padding-right: 40px;
 }
@@ -236,7 +236,9 @@ h2{
     margin-left: 20px;
 }
     
-
+.nav .button{
+    display: inline-block;
+}
 
 
 /******************
@@ -244,7 +246,7 @@ h2{
 ********************/
 
 .jumbo_container .title{
-    font-size: 5.5rem;
+    font-size: 5rem;
     margin-bottom: 50px;
 }
 
@@ -622,125 +624,52 @@ footer .language{
 }
 
 /*****************
-        DEBUG 
+        EFFECTS
 ******************/
-    
-    
-.debug .nav .left{
-    background-color: aqua;
-    height: 100px;
+.page_link li a{
+    padding-bottom: 44px; 
 }
     
-.debug .nav .right{
-    background-color: aquamarine;
-    height: 100px;
-}
-    
-.debug .jumbotron_bg{
-    background-color: skyblue;
-    height: 650px;
-}
-    
+.page_link li:hover a{
+    border-bottom: 2px solid black;
 
-.debug .jumbo_container{
-    background-color: slateblue;
-    height: 600px;
-    width: 80%;
-    margin: auto;
+}
+
+.submenu{
+    position: relative;
+}
+
+.submenu:hover .submenu_cont{
+    display: block;
+}
+
+.submenu_cont{
+    display: none;
     position: absolute;
-    top: 30%;
-    left: 10%;
+    min-width: 200px;
+    text-align: left;
+    top: 67.5px;
+    left: 17px;
+    background-color: white;
+
 }
 
-.debug .title{
-    height: 200px;
-    background-color: slategray;
+.submenu_cont li{
+    padding: 10px 20px;
+    list-style: none;
+    font-size: 0.9rem;
 }
 
-.debug .txt_column{
-    height: 400px;
-    background-color: steelblue;
+.submenu_cont li:hover{
+    background-color: lightgray;
+    cursor: pointer;
 }
 
-.debug .sect_title{
-    height: 200px;
-    background-color: tan;
-    margin-top: 100px;
+.button .btn_blue:hover{
+    background-color: #0062ffb6;
 }
 
-.debug .row .column{
-    height: 600px;
-    background-color: teal;
-}
-.debug .row .table_bottom{
-    height: 200px;
-    background-color: thistle;
-}
-
-.debug .partner .image_left{
-    height: 450px;
-    background-color: tomato;
-}
-
-.debug .partner .txt_right{
-    height: 450px;
-    background-color: violet;
-}
-
-
-.debug .operations .instruments{
-    height: 300px;
-    background-color: cornflowerblue;
-}
-
-.debug .clients .client_logo{
-    background-color: darkgoldenrod;
-    height: 500px;
-}
-
-.debug .client_logo .left,
-.debug .client_logo .right{
-    height: 100%;
-    background-color: darkmagenta;
-}
-
-.debug .client_logo .middle{
-    height: 100%;
-    background-color: darkolivegreen;
-}
-
-.debug .box .tl,
-.debug .box .br{
-    height: 250px;
-    background-color: darkorange;
-}
-
-.debug .box .tr,
-.debug .box .bl{
-    background-color: deepskyblue;
-    height: 250px;
-}
-
-.debug .box_bottom{
-    height: 400px;
-    background-color: rgb(37, 81, 124);
-}
-
-.debug .box_bottom .free_trial{
-    height: 100%;
-    background-color: dodgerblue;
-}
-
-.debug .QA .FAQ{
-    height: 150px;
-    background-color: forestgreen;
-}
-
-.debug footer{
-    height: 600px;
-}
-
-.debug footer .footer_column{
-    height: 400px;
-    background-color: cornsilk;
+.btn .btn_white:hover,
+.button .btn_gray:hover{
+    background-color: rgb(238, 238, 238);
 }
