@@ -1,0 +1,36 @@
+
+.nav{
+    border-bottom: 1px solid lightgray
+}
+
+.container_50{
+    width: 40%;
+    margin: auto;
+    padding-top: 200px;
+}
+
+main .img_container,
+main .signin,
+main .txt_left,
+main .txt_right{
+    float: left;
+    width: 50%;
+}
+
+
+.signin .txt_right{
+    text-align: right;
+}
+
+.signin .txt_left{
+    font-size: 1.2rem;
+}
+
+.signin .txt_right{
+    font-size: .9rem;
+    padding-top: 6px
+}
+
+.signin .txt_blue{
+    color: #0061FF;
+}
